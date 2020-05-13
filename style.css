@@ -1,5 +1,7 @@
 body {
   background-color: blanchedalmond;
+  /* border-color: blue;
+  border-style: solid; */
 }
 
 h1 {
@@ -28,6 +30,8 @@ h1 {
   justify-content: space-evenly;
   /* border-color: red;
   border-style: solid; */
+  width: 50%;
+  margin: 0 auto;
 }
 
 #colors {
@@ -68,4 +72,15 @@ h1 {
 
 #dimensions {
   width: 30px;
+}
+
+#footer {
+  position: absolute;
+  right: 5%;
+  bottom: 2%;
+  font-family: Permanent Marker, 'Times New Roman';
+  font-size: 20px;
+  color: #7a3413;
+  cursor: pointer;
+  text-decoration: none;
 }
